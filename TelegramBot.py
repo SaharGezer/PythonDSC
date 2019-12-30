@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 import ValidationService as vs
 
-updater = Updater(token='1033893928:AAGs8uBN1TS_esOodN3exlbaLu-rJJVreoE', use_context=True)
+updater = Updater(token='TokenHere', use_context=True)
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
